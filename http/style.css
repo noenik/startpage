@@ -126,3 +126,4 @@ input:hover, input:focus {
 	display: none;
 }
 .sub_box {margin-left: 10px;}
+b {	font-size: 32px; float:left; cursor: pointer; position: absolute; top:0;}

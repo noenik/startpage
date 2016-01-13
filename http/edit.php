@@ -28,6 +28,7 @@ $background = $result["img_path"];
     </style>
 </head>
     <body class="preload">
+    <b class="icon ion-arrow-left-c"></b>
     <div id="wrapper">
         <h1><?php echo $title ?></h1>
         <form id="add_link" action="functions.php?f=addLink" method="POST">

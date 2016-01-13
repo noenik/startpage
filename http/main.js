@@ -32,4 +32,13 @@ $(window).ready(function(){
 
     });
 
+    $('b').click(function(){
+        console.log(location.href.split("/").slice(-1));
+        if(location.href.split("/").slice(-1)[0] === "index.php") {
+            window.location.href="edit.php";
+        }else {
+            window.location.href="index.php";
+        }
+    });
+
 });

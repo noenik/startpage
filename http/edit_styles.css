@@ -1,8 +1,9 @@
+body {color: #fff;}
 #wrapper {
     width: 70%;
     margin: 0 auto;
 }
-
+b {font-size: 64px; color: #555; cursor: pointer; position: absolute; top:0;}
 table, th, td {
     border-collapse: collapse;
 }
@@ -70,8 +71,6 @@ table tr~tr{
     overflow: auto;
 }
 
-h2 {color: #fff;}
-
 #add_link {
     width: 520px;
     margin: 25px auto 0 auto;
@@ -84,5 +83,4 @@ input, select {
 h1 {
     font: 4.0em 'Lobster', cursive;
     text-align: center;
-    color: #fff;
 }

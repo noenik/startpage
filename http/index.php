@@ -15,6 +15,7 @@ $background = $result["img_path"];
     <link href='http://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto:300|Roboto+Condensed' rel='stylesheet'
           type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/ionicons/css/ionicons.css">
 
         <title>Start</title>
         <script type="text/javascript" src="vendors/jquery/jquery.js"></script>
@@ -31,6 +32,7 @@ $background = $result["img_path"];
 </head>
 
 <body class="preload">
+<b class="icon ion-gear-b"></b>
 <h1><?php echo $title ?></h1>
 
 <div id="boxes">
