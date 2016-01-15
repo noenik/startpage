@@ -1,0 +1,130 @@
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Lobster|Roboto|Roboto:300|Roboto+Condensed' rel='stylesheet'
+          type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Start</title>
+    <script type="text/javascript" src="jquery/jquery.js"></script>
+    <script>
+        $(window).ready(function(){
+            $('.sub_box').hide();
+            $('.news').click(function() {
+                $('#news_links a').each(function(){
+                    window.open($(this).attr('href'));
+                });
+            });
+
+            $('li').mouseenter(function(){
+                $(this).next('.sub_box').slideDown();
+            });
+            $('.sub_box').mouseleave(function(){
+                $(this).slideUp();
+            });
+        });
+
+
+        window.addEventListener('preload', function load() {
+            window.removeEventListener('preload', load, false);
+            document.body.classList.remove('preload');
+        }, false);
+    </script>
+</head>
+
+<body class="preload">
+<h1>Welcome to the Web.</h1>
+
+<div id="boxes">
+
+    <div class="box"><h4><a href="#" class="news"> News </a></h4>
+        <ul id="news_links">
+            <li><a href="http://www.vg.no/"> VG </a></li>
+            <li><a href="http://www.aftenposten.no/"> Aftenposten </a></li>
+            <li><a href="http://www.dagbladet.no/"> Dagbladet </a></li>
+            <li><a href="http://www.itavisen.no/"> Itavisen </a></li>
+            <li><a href="http://www.tek.no/"> Tek </a></li>
+            <li><a href="http://www.speedhunters.com/"> Speedhunters </a></li>
+        </ul>
+    </div>
+
+    <div class="box"><h4>Communities</h4>
+        <ul>
+            <li><a href="https://hd-torrents.org/"> HD-Torrents </a></li>
+	        <li><a href="https://forums.plex.tv/"> Plex Forums </a></li>
+            <li><a href="https://github.com/noenik"> Github </a></li>
+            <li><a href="https://www.reddit.com/"> Reddit </a></li>
+            <li><a href="https://facebook.com/messages"> Messages - Facebook </a></li>
+            <br>
+            <li>Google</li>
+            <ul class="sub_box">
+                <li><a href="https://drive.google.com/"> Drive </a></li>
+                <li><a href="https://keep.google.com/"> Keep </a></li>
+                <li><a href="https://mail.google.com"> Mail </a></li>
+            </ul>
+        </ul>
+    </div>
+
+
+    <div class="sbox"><h4>Search</h4>
+        <table id="search">
+
+            <tr>
+                <td><a href="https://www.google.com/">Google</a></td>
+                <td>
+                    <form action="https://google.com/search?q=" method="get">
+                        <input type="text" name="q" autofocus/></form>
+                </td>
+            </tr>
+			
+            <tr>
+                <td><a href="http://www.imdb.com/">IMDb</a></td>
+                <td>
+                    <form action="http://www.imdb.com/find?q=" method="get">
+                        <input type="text" name="q"/></form>
+                </td>
+            </tr>
+
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></td>
+                <td>
+                    <form action="https://en.wikipedia.org/w/index.php?title=Special%3ASearch&go=Go$search=" method="get">
+                        <input type="text" name="search"/></form>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <div class="box"><h4>Entertainment</h4>
+        <ul>
+            <li><a href="https://www.youtube.com/feed/subscriptions" class="enter"> YouTube </a></li>
+            <li><a href="http://192.168.1.103:32400/web/index.html" class="enter"> Plex </a></li>
+            <li><a href="http://www.cad-comic.com/cad" class="enter"> CtrlAltDel </a></li>
+            <li><a href="http://www.dagbladet.no/tegneserie/"> Db - Tegneserier </a></li>
+            <li><a href="http://xkcd.com/"> XKCD </a></li>
+            <br>
+            <li>Other</li>
+            <ul class="sub_box">
+                <li><a href="http://www.escapistmagazine.com/videos/view/zero-punctuation"> Zero Punctuation </a></li>
+            </ul>
+        </ul>
+    </div>
+
+
+    <div class="box"><h4>Education</h4>
+        <ul>
+            <li><a href="https://www.ntnu.no/studentliv/alesund"> NTNU Ålesund </a></li>
+            <li><a href="https://www.fronter.com/hials/"> Fronter </a></li>
+            <li><a href="https://fsweb.no/studentweb/index.jsf?inst=FSHIALS"> StudentWeb </a></li>
+            <br>
+            <li><a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a></li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+
+</html>
