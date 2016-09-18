@@ -1,4 +1,4 @@
-body {color: #fff;}
+body {color: #fff; box-sizing: border-box;}
 #wrapper {
     width: 70%;
     margin: 0 auto;
@@ -30,18 +30,18 @@ table tr~tr{
     background-color: #000;
 }
 
-.table-wrapper th:nth-child(1),td:nth-child(5n+1) {
-    width: 30%;
+.table-wrapper th:nth-child(1),td:nth-child(4n+1) {
+    width: 10%;
 }
-.table-wrapper th:nth-child(2),td:nth-child(5n+2) {
-    width: 70%;
+.table-wrapper th:nth-child(2),td:nth-child(4n+2) {
+    width: 22%;
 }
-.table-wrapper th:nth-child(3),td:nth-child(5n+3) {
-    width: 50px;
+.table-wrapper th:nth-child(3),td:nth-child(4n+3) {
+    width: 58%;
 }
-/*.table-wrapper th:nth-child(4),td:nth-child(5n+4) {*/
-    /*width: 80px;*/
-/*}*/
+.table-wrapper th:nth-child(4),td:nth-child(4n+4) {
+    width: 10%;
+}
 
 .table-wrapper {
     width: 650px;
@@ -67,7 +67,7 @@ table tr~tr{
 }
 
 .table-body {
-    max-height: 200px;
+    max-height: 210px;
     overflow: auto;
 }
 

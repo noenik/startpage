@@ -64,21 +64,25 @@ $background = $result["img_path"];
         <h2>$category_title</h2>
         <table class='listhead'>
             <tr>
+                <th>Num</th>
                 <th>Title</th>
                 <th>Link</th>
+                <th>Remove</th>
             </tr>
         </table>
         <div class='table-body'>
             <table class='linklist'>";
 
-            $li_query = "SELECT title, link FROM List_item " .
+            $li_query = "SELECT title, link, priority FROM List_item " .
                 "WHERE category = '$category_title' ORDER BY priority";
             $result = mysqli_query($db_link, $li_query);
             while ($row = mysqli_fetch_array($result)) {
                 $href = $row['link'];
                 $title = $row['title'];
+                $pri = $row['priority'];
 
                 echo "<tr> " .
+                    "<td class='priority'>$pri</td> " .
                     "<td class='li_title'>$title</td> " .
                     "<td>$href</td> " .
                     "<td><i class='icon ion-close-round'></i></td> " .

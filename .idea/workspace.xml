@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70d3207e-2840-4a12-93f1-e8ae57132987" name="Default" comment="" />
+    <list default="true" id="70d3207e-2840-4a12-93f1-e8ae57132987" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/edit.php" afterPath="$PROJECT_DIR$/html/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/edit_styles.css" afterPath="$PROJECT_DIR$/html/edit_styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/main.js" afterPath="$PROJECT_DIR$/html/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="startpage.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -21,18 +26,89 @@
     <favorites_list name="startpage" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="dblink.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/dblink.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/edit.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.43398392">
+                  <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+                  <folding>
+                    <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+                    <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+                    <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+                    <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+                    <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+                    <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+                    <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-41.846153">
+                  <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+                  <folding>
+                    <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+                    <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+                    <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+                    <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+                    <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="edit_styles.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/html/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/html/main.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.83389074">
+                  <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +132,10 @@
         <option value="$PROJECT_DIR$/main.js" />
         <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/edit_styles.css" />
+        <option value="$PROJECT_DIR$/html/index.php" />
+        <option value="$PROJECT_DIR$/html/edit.php" />
+        <option value="$PROJECT_DIR$/html/edit_styles.css" />
+        <option value="$PROJECT_DIR$/html/main.js" />
       </list>
     </option>
   </component>
@@ -99,6 +179,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -107,38 +188,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="startpage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/http" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -185,10 +241,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.122068234" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12739871" sideWeight="0.495671" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -224,11 +280,388 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/dblink.php">
+    <entry file="file://$PROJECT_DIR$/html/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="84" selection-end-column="54" />
+          <folding>
+            <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+            <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+            <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+            <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="84" selection-end-column="54" />
+          <folding>
+            <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+            <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+            <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+            <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="84" selection-end-column="54" />
+          <folding>
+            <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+            <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+          <folding>
+            <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+            <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+            <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="84" selection-end-column="54" />
+          <folding>
+            <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+            <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+          <folding>
+            <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+            <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+            <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+            <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+            <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+            <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/dblink.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-41.846153">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+          <folding>
+            <marker date="1452711796422" expanded="true" signature="87:149" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452711796422" expanded="true" signature="1272:1316" placeholder="SELECT title..Category..." />
+            <marker date="1452711796422" expanded="true" signature="1610:2829" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1640:1992" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1755:1962" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="1845:1928" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2022:2358" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2132:2328" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2221:2294" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2388:2799" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2522:2769" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2657:2735" placeholder="..." />
+            <marker date="1452711796422" expanded="true" signature="2876:2962" placeholder="SELECT title..List_item..." />
+            <marker date="1452711796422" expanded="true" signature="3394:3456" placeholder="SELECT title..Sublist_item..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83389074">
+          <caret line="44" column="44" selection-start-line="44" selection-start-column="44" selection-end-line="44" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43398392">
+          <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+          <folding>
+            <marker date="1452880387909" expanded="true" signature="44:106" placeholder="SELECT * FRO..Main..." />
+            <marker date="1452880387909" expanded="true" signature="1523:1591" placeholder="SELECT title..Category..." />
+            <marker date="1452880387909" expanded="true" signature="2183:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2249:2423" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2266:2406" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2456:2493" placeholder="..." />
+            <marker date="1452880387909" expanded="true" signature="2523:2640" placeholder="SELECT title..List_item..." />
+          </folding>
         </state>
       </provider>
     </entry>
