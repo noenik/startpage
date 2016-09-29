@@ -1,0 +1,13 @@
+{% extends 'main_template.html' %}
+{% block title %}Start{% endblock %}
+{% block content %}
+
+    <h1>Hello world!!!!! This is my app!</h1>
+
+    {% for link in links %}
+
+        <a href="{{ link.url }}">{{ link.dspText }}</a>
+
+    {% endfor %}
+
+{% endblock %}
